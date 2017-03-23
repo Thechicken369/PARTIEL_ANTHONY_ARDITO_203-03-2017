@@ -1,0 +1,7 @@
+projet(ID,nom,date_fin,date_debut,nature,description)
+ressource(ID,libelle,description,id_projet#)
+note(ID,Contenue,id_projet#,id_utilisateur#)
+Utilisateur(ID,Nom,MDP,Email)
+Client(ID,nom,adresse,email)
+travail(id_projet#,id_utilisateur#)
+finance(id_projet#,id_client#)
